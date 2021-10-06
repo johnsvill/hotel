@@ -1,0 +1,166 @@
+﻿@page
+@model KimaliVic.Pages.EventosModel
+@{
+}
+
+
+<!-- Page Title
+        ============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>Eventos</h1>
+        <span>Uno para cada ocasión</span>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-area="" asp-page="/">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Habitaciones</li>
+        </ol>
+    </div>
+
+</section><!-- #page-title end -->
+<!-- Content
+        ============================================= -->
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+
+            <!-- Portfolio Items
+            ============================================= -->
+            <div id="portfolio" class="portfolio row grid-container gutter-30" data-layout="fitRows">
+
+                <article class="portfolio-item col-12">
+                    <div class="grid-inner">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/salones/salonguadalupe.jpg" alt="Habitación 1"></a>
+
+                            <div class="bg-overlay" data-lightbox="gallery">
+                                <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                    <a href="images/salones/salonguadalupe.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                    <a href="images/salones/salonguadalupe2.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                    <a href="images/salones/salonguadalupe3.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                    <a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="1" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                                </div>
+                                <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="row">
+                                <div class="col-9">
+
+                                    <h3><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="1">Salón Guadalupe</a></h3>
+                                    <span><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="1"  style="color: #00635c;">En honor al barrio Guadalupe, en donde fue fundado el hotel Kimali Vic en 1995</a></span>
+                                </div>
+                                <div class="col-3"><a style="float:right" class="btn btn-light" asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="1">Reservar</a></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item col-6">
+                    <div class="grid-inner">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/salones/salonsanmarcos.jpg" alt="Habitación 1"></a>
+                            <div class="bg-overlay" data-lightbox="gallery">
+                                <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                    <a href="images/salones/salonsanmarcos.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                    <a href="images/salones/salonsanmarcos2.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                    <a href="images/salones/salonsanmarcos3.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                    <a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="2" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                                </div>
+                                <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="row">
+                                <div class="col-9">
+
+                                    <h3><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="2">Salón San Marcos</a></h3>
+                                    <span><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="2"  style="color: #00635c;">En homenaje a la fundadora Rosalinda Moldonado</a></span>
+                                </div>
+                                <div class="col-3"><a class="btn btn-light" asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="2">Reservar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item col-sm-6">
+                    <div class="grid-inner">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/salones/salonsantuncaj.jpg" alt="Habitación 1"></a>
+                            <div class="bg-overlay" data-lightbox="gallery">
+                                <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                    <a href="images/salones/salonsantuncaj.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                    <a href="images/salones/salonsantuncaj2.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                    
+                                    <a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="3" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                                </div>
+                                <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="row">
+                                <div class="col-9">
+
+                                    <h3><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="3">Salón Tucaj</a></h3>
+                                    <span><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="3"  style="color: #00635c;">En homenaje al fundador Victor Hugo Cardona</a></span>
+                                </div>
+                                <div class="col-3"><a class="btn btn-light" asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="3">Reservar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item col-sm-6 col-12">
+                    <div class="grid-inner">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/salones/salonejecutivo.jpg" alt="Habitación 1"></a>
+                            <div class="bg-overlay" data-lightbox="gallery">
+                                <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                    <a href="images/salones/salonejecutivo.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                    <a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="4" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                                </div>
+                                <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="row">
+                                <div class="col-9">
+
+                                    <h3><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="4">Salón Ejecutivo</a></h3>
+                                    <span><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="4"  style="color: #00635c;">Para reuniones importantes de tipo empresarial.</a></span>
+                                </div>
+                                <div class="col-3"><a class="btn btn-light" asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="4">Reservar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="portfolio-item col-sm-6 col-12">
+                    <div class="grid-inner">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/salones/safarikids.jpg" alt="Habitación 1"></a>
+                            <div class="bg-overlay" data-lightbox="gallery">
+                                <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                    <a href="images/salones/safarikids.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                    <a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="5" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                                </div>
+                                <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="row">
+                                <div class="col-9">
+                                    <h3><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="5">Safari Kids</a></h3>
+                                    <span><a asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="5"  style="color: #00635c;">Para los más pequeños</a></span>
+                                </div>
+                                <div class="col-3"><a class="btn btn-light" asp-area="" asp-page="/ReservaEvento" asp-route-numhabitacion="5">Reservar</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div><!-- #portfolio end -->
+        </div>
+    </div>
+</section><!-- #content end -->

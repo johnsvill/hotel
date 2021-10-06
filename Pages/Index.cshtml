@@ -1,0 +1,216 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+<section id="slider" class="slider-element slider-parallax swiper_wrapper vh-75">
+    <div class="slider-inner">
+
+        <div class="swiper-container swiper-parent">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide dark">
+                    <div class="container">
+                        <div class="slider-caption">
+                            <h2 data-animate="fadeInUp">BIENVENIDO A KIMALI VIC</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/1.jpg');"></div>
+                </div>
+                <div class="swiper-slide dark">
+                    <div class="container">
+                        <div class="slider-caption">
+                            <h2 data-animate="fadeInUp">REALIZA TUS EVENTOS ESPECIALES</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/2.jpg');"></div>
+                </div>
+                <div class="swiper-slide dark">
+                    <div class="container">
+                        <div class="slider-caption">
+                            <h2 data-animate="fadeInUp">VISITA NUESTRO RESTAURANTE</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/3.jpg');"></div>
+                </div>
+                <div class="swiper-slide dark">
+                    <div class="container">
+                        <div class="slider-caption">
+                            <h2 data-animate="fadeInUp">RESERVA UNA HABITACIÓN</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/5.jpg');"></div>
+                </div>
+            </div>
+            <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+            <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+            <div class="slide-number"><div class="slide-number-current"></div><span>/</span><div class="slide-number-total"></div></div>
+        </div>
+
+    </div>
+</section>
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+            <div class="heading-block center">
+                <h3>Algunas de nuestras habitaciones</h3>
+                <span style="color: #00635c;">Con todas las amenidades y comodidades.</span>
+            </div>
+
+            <div id="oc-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="1" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="3" data-items-xl="4">
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="1">
+                            <img src="images/portfolio/4/1.jpg" alt="Habitación 1">
+                        </a>
+                        <div class="bg-overlay" data-lightbox="gallery">
+                            <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                <a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/1-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="images/portfolio/full/1-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="images/portfolio/full/1-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                            </div>
+                            <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-desc">
+                        <h3><a asp-area="" asp-page="/Reserva" asp-route-numhabitacion="1" style="color: #00635c;">Habitación 1</a></h3>
+
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="2">
+                            <img src="images/portfolio/4/2.jpg" alt="Habitación 2">
+                        </a>
+                        <div class="bg-overlay" data-lightbox="gallery">
+                            <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                <a href="images/portfolio/full/2.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/2-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="images/portfolio/full/2-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                            </div>
+                            <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-desc">
+                        <h3><a asp-area="" asp-page="/Reserva" asp-route-numhabitacion="2" style="color: #00635c;">Habitación 2</a></h3>
+
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="3">
+                            <img src="images/portfolio/4/3.jpg" alt="Habitación 3">
+                        </a>
+                        <div class="bg-overlay" data-lightbox="gallery">
+                            <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                <a href="images/portfolio/full/3.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/3-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="images/portfolio/full/3-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                            </div>
+                            <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-desc">
+                        <h3><a asp-area="" asp-page="/Reserva" asp-route-numhabitacion="3" style="color: #00635c;">Habitación 3</a></h3>
+
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="4">
+                            <img src="images/portfolio/4/4.jpg" alt="Habitación 4">
+                        </a>
+                        <div class="bg-overlay" data-lightbox="gallery">
+                            <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                <a href="images/portfolio/full/4.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/4-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="images/portfolio/full/4-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                            </div>
+                            <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-desc">
+                        <h3><a asp-area="" asp-page="/Reserva" asp-route-numhabitacion="4" style="color: #00635c;">Habitación 4</a></h3>
+
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="5">
+                            <img src="images/portfolio/4/5.jpg" alt="Habitación 5">
+                        </a>
+                        <div class="bg-overlay" data-lightbox="gallery">
+                            <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                <a href="images/portfolio/full/5.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="images/portfolio/full/5-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="images/portfolio/full/5-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="images/portfolio/full/5-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="images/portfolio/full/5-4.jpg" class="d-none" data-lightbox="gallery-item"></a>
+                                <a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                            </div>
+                            <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-desc">
+                        <h3><a asp-area="" asp-page="/Reserva" asp-route-numhabitacion="5" style="color: #00635c;">Habitación 5</a></h3>
+
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="6">
+                            <img src="images/portfolio/4/6.jpg" alt="Habitación 5">
+                        </a>
+                        <div class="bg-overlay" data-lightbox="gallery">
+                            <div class="bg-overlay-content dark" data-hover-animate="fadeIn">
+                                <a href="images/portfolio/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+                                <a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+                            </div>
+                            <div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-desc">
+                        <h3><a asp-area="" asp-page="/Reserva" asp-route-numhabitacion="6" style="color: #00635c;">Habitación 6</a></h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="heading-block center">
+                <h3>Visítanos</h3>
+                <span style="color: #00635c;">Te esperamos!</span>
+            </div>
+            <div id="map" style="height: 400px; width: 100%;"></div>
+
+
+
+        </div>
+
+    </div>
+</section><!-- #content end -->
+@section scripts {
+    <script type="text/javascript">
+        //AIzaSyCEIy9WNI7Sj1qs586WUxUmlk8-3x0ZzFo
+            function initMap() {
+                // The location of Uluru
+                //, 
+                const uluru = { lat: 14.699147, lng: -91.870148 };
+                // The map, centered at Uluru
+                const map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 20,
+                    center: uluru,
+                });
+                // The marker, positioned at Uluru
+                const marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map,
+                });
+            }
+    </script>
+}

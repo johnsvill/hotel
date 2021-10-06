@@ -1,0 +1,85 @@
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\KimaliVic.exe
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\KimaliVic.deps.json
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\KimaliVic.runtimeconfig.json
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\KimaliVic.runtimeconfig.dev.json
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\KimaliVic.dll
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\KimaliVic.pdb
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\KimaliVic.Views.dll
+C:\Users\migue\source\repos\KimaliVic\bin\Release\netcoreapp3.1\KimaliVic.Views.pdb
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.AssemblyInfoInputs.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.AssemblyInfo.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.csproj.CoreCompileInputs.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.RazorAssemblyInfo.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.RazorAssemblyInfo.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\staticwebassets\KimaliVic.StaticWebAssets.Manifest.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\staticwebassets\KimaliVic.StaticWebAssets.xml
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\scopedcss\bundle\KimaliVic.styles.css
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.TagHelpers.input.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.TagHelpers.output.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.RazorCoreGenerate.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\Habitacion.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\Habitaciones.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\Reserva.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.RazorTargetAssemblyInfo.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.RazorTargetAssemblyInfo.cs
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.Views.pdb
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.dll
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.pdb
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.genruntimeconfig.cache
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.csproj.CopyComplete
+C:\Users\migue\source\repos\KimaliVic\obj\Release\netcoreapp3.1\KimaliVic.csproj.AssemblyReference.cache
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\KimaliVic.exe
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\KimaliVic.deps.json
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\KimaliVic.runtimeconfig.json
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\KimaliVic.runtimeconfig.dev.json
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\KimaliVic.dll
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\KimaliVic.pdb
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\KimaliVic.Views.dll
+C:\Users\migue\source\repos\Kimali Vic\bin\Release\netcoreapp3.1\KimaliVic.Views.pdb
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.csproj.AssemblyReference.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.AssemblyInfoInputs.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.AssemblyInfo.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.csproj.CoreCompileInputs.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.RazorAssemblyInfo.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.RazorAssemblyInfo.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\staticwebassets\KimaliVic.StaticWebAssets.Manifest.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\staticwebassets\KimaliVic.StaticWebAssets.xml
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\scopedcss\bundle\KimaliVic.styles.css
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.TagHelpers.input.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.TagHelpers.output.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.RazorCoreGenerate.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Evento.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Eventos.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Habitacion.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Habitaciones.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Reserva.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Restaurante.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.RazorTargetAssemblyInfo.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.RazorTargetAssemblyInfo.cs
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.Views.pdb
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.dll
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.pdb
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.genruntimeconfig.cache
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\KimaliVic.csproj.CopyComplete
+C:\Users\migue\source\repos\Kimali Vic\obj\Release\netcoreapp3.1\Razor\Pages\ReservaEvento.cshtml.g.cs
