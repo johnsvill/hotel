@@ -16,24 +16,24 @@ namespace KimaliVic.Pages
         {
             if(numhabitacion==1)
             {
-                NombreSalon = "Salón Guadalupe";
+                NombreSalon = "Salï¿½n Guadalupe";
                 NombreFoto = "salonguadalupe.jpg";
             }
 
             if (numhabitacion == 2)
             {
-                NombreSalon = "Salón San Marcos";
+                NombreSalon = "Salï¿½n San Marcos";
                 NombreFoto = "salonsanmarcos.jpg";
             }
 
             if (numhabitacion == 3)
             {
-                NombreSalon = "Salón Tucaj";
+                NombreSalon = "Salï¿½n Tuncaj";
                 NombreFoto = "salonsantuncaj.jpg";
             }
             if (numhabitacion == 4)
             {
-                NombreSalon = "Salón Ejecutivo";
+                NombreSalon = "Salï¿½n Ejecutivo";
                 NombreFoto = "salonejecutivo.jpg";
             }
             if (numhabitacion == 5)
