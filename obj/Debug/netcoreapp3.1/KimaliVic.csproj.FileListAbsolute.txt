@@ -489,3 +489,4 @@ C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\bin\Debug\netcoreapp3.
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Debug\netcoreapp3.1\KimaliVic.csproj.AssemblyReference.cache
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Debug\netcoreapp3.1\KimaliVic.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Debug\netcoreapp3.1\Razor\Pages\Contacto.cshtml.g.cs

@@ -39,7 +39,15 @@ $.fn.scrollEnd = function(callback, timeout) {
 		};
 }());
 
+navbar = document.querySelector(".primary-menu").querySelectorAll("a");
+console.log(navbar);
 
+navbar.forEach(element => {
+	element.addEventListener("click", function () {
+		navbar.forEach(nav => nav.classList.remove("active"))
+		this.classList.add("active");
+	})
+});
 
 function debounce(func, wait, immediate) {
 	let timeout, args, context, timestamp, result;

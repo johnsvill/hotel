@@ -34,7 +34,7 @@
         gtag('config', 'G-8JFEVJERZ3');
     </script>
 </head>
-<body class="stretched">
+<body id="portada" class="stretched">
     <div id="wrapper" class="clearfix">
         <!-- Header
         ============================================= -->
@@ -50,7 +50,7 @@
                 <div class="container">
                     <div class="header-row">
                         <!-- Logo
-            ============================================= -->
+    ============================================= -->
                         <div id="logo">
                             <a asp-area="" asp-page="/Index" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Kimali Vic"></a>
                             <a asp-area="" asp-page="/index" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Kimali Vic"></a>
@@ -59,13 +59,13 @@
                             <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
                         </div>
                         <!-- Primary Navigation
-            ============================================= -->
-                        <nav class="primary-menu">
-                            <ul class="menu-container">
-                                <li class="menu-item">
+    ============================================= -->
+                        <nav id="sub-header" class="primary-menu">
+                            <ul class="menu menu-container">
+                                <li class="menu-item mega-menu">
                                     <a class="menu-link" asp-area="" asp-page="/Index"><div>Inicio</div></a>
                                 </li>
-                                <li class="menu-item">
+                                <li class="menu-item mega-menu">
                                     <a class="menu-link" asp-area="" asp-page="/About"><div>Sobre Nosotros</div></a>
                                 </li>
                                 <li class="menu-item">
@@ -78,10 +78,16 @@
                                     <a class="menu-link" asp-area="" asp-page="/Eventos"><div>Eventos</div></a>
                                 </li>
                                 <li class="menu-item mega-menu">
-                                    <a class="menu-link" href="#footer"><div>Contáctanos</div></a>
+                                    <a class="menu-link" asp-area="" asp-page="/Contacto"><div>Contáctanos</div></a>
                                 </li>
                             </ul>
-                        </nav><!-- #primary-menu end -->
+                        </nav>
+                        <style>
+                            .active a {
+                                color: #FFD700;
+                                font-size:125%;
+                            }                          
+                        </style>
                     </div>
                 </div>
             </div>
@@ -143,6 +149,30 @@
     <script src="~/js/jquery.js"></script>
     <script src="~/js/plugins.min.js"></script>
 
+    <script>
+        $(function () {            
+            var url = window.location.href;          
+            $("#sub-header a").each(function () {                
+                if (url == (this.href)) {
+                    $(this).closest("li").addClass("active");
+                }
+            });
+        });
+    </script>
+
+    @*<script>
+        let ul = document.querySelector('ul');
+        let li = document.querySelectorAll('li');
+
+        li.forEach(el => {
+            el.addEventListener('click', function () {
+                ul.querySelector('.active').classList.remove('active');
+
+                el.classList.add('active');
+            });
+        });
+    </script>*@
+
     <!-- Footer Scripts
     ============================================= -->
     <script src="~/js/functions.js"></script>
@@ -154,3 +184,4 @@
     @RenderSection("Scripts", required: false)
 </body>
 </html>
+
