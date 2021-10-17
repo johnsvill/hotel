@@ -16,6 +16,21 @@ namespace KimaliVic.Pages
         {
             NumHabitacion = numhabitacion;
             NombreFoto = numhabitacion.ToString() + ".jpg";
-        }
+
+            if (numhabitacion == 1)
+            {               
+                NombreFoto = "4.jpg";
+            }
+
+            if (numhabitacion == 3)
+            {                
+                NombreFoto = "fotos de 2.jpg";
+            }
+
+            if (numhabitacion == 5)
+            {             
+                NombreFoto = "6.jpg";
+            }
+        }     
     }
 }

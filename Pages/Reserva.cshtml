@@ -8,12 +8,12 @@
 <section id="page-title">
 
     <div class="container clearfix">
-        <h1>Reservaciones</h1>
-        <span style="color: #00635c;">Haz tu reserva!</span>
-        <ol class="breadcrumb">
+        <h1 class="text-center">Reservaciones</h1>
+        <span class="text-center" style="color: #00635c;"><strong>Haz tu reserva!</strong></span>
+        @*<ol class="breadcrumb">
             <li class="breadcrumb-item"><a asp-area="" asp-page="/Habitaciones">Habitaciones</a></li>
             <li class="breadcrumb-item active" aria-current="page">Reservas</li>
-        </ol>
+        </ol>*@
     </div>
 
 </section><!-- #page-title end -->
@@ -21,34 +21,48 @@
 <section id="content">
     <div class="content-wrap">
         <div class="container clearfix">
-
             <div class="row">
-
-                <!-- Portfolio Single Image
-                ============================================= -->
+                <!-- Portfolio Single Image  
+                    ============================================= -->
                 <div class="col-lg-8 portfolio-single-image">
-                    <a href="#"><img src="images/portfolio/4/@Model.NombreFoto" style="max-height:400px" alt="Image"></a>
-                    <h2>Habitación @Model.NumHabitacion</h2>
-                    <p style="background-color: #00635c;">Información habitación</p>
+                    @if (Model.NumHabitacion == 5)
+                    {
+                        <a href="#"><img src="~/images/habitaciones/simple/6.jpg" style="max-height:400px" alt="Image"></a>
+                        <h2>Habitación Simple</h2>
+                        <span><a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="5"><strong style="color:#00635c">Información sobre la habitación.</strong></a></span>
+                    }
+                    else if (Model.NumHabitacion == 1)
+                    {
+                        <a href="#"><img src="~/images/habitaciones/suite/4.jpg" style="max-height:400px" alt="Image"></a>
+                        <h2>Suite</h2>
+                        <span><a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="1"><strong style="color:#00635c">Información sobre la habitación.</strong></a></span>
+                    }
+                    else if (Model.NumHabitacion == 3)
+                    {
+                        <a href="#"><img src="~/images/habitaciones/doble/fotos de 2.jpg" style="max-height:400px" alt="Image"></a>
+                        <h2>Habitación Doble</h2>
+                        <span><a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="3"><strong style="color:#00635c">Información sobre la habitación.</strong></a></span>
+                    }
+
+                    @*<a href="#"><img src="images/portfolio/4/@Model.NombreFoto" style="max-height:400px" alt="Image"></a>*@
+                    <!--<h2>Habitación @Model.NumHabitacion</h2>-->
+                    @*<p style="background-color: #00635c;">Información habitación</p>*@
                 </div><!-- .portfolio-single-image end -->
                 <!-- Portfolio Single Content
-                ============================================= -->
+    ============================================= -->
                 <div class="col-lg-4 portfolio-single-content">
-
                     <!-- Portfolio Single - Description
-                    ============================================= -->
+        ============================================= -->
                     <div class="form-widget">
 
                         <div class="form-result"></div>
 
                         <form class="mb-0" id="template-contactform" name="template-contactform" method="post">
-
                             <div class="form-process">
                                 <div class="css3-spinner">
                                     <div class="css3-spinner-scaler"></div>
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-12 form-group">
                                     <label style="color: #00635c;" for="template-contactform-name">Nombre</label>
@@ -75,12 +89,11 @@
                             </div>
                             <div class="row">
                                 <div class="col-12 form-group">
-                                    <label style="color: #00635c;" for="template-contactform-telefono">Telefono</label>
+                                    <label style="color: #00635c;" for="template-contactform-telefono">Teléfono</label>
                                     <input type="text" id="template-contactform-telefono" name="template-contactform-telefono" value="" class="sm-form-control required" />
                                 </div>
                             </div>
                             <div class="row">
-
                                 <div class="col-6 form-group">
                                     <label style="color: #00635c;" for="template-contactform-adultos">Adultos</label>
                                     <select id="template-contactform-adultos" name="template-contactform-adultos" class="sm-form-control">
@@ -91,10 +104,6 @@
                                         <option value="5">5</option>
                                     </select>
                                 </div>
-
-
-
-
                                 <div class="col-6 form-group">
                                     <label style="color: #00635c;" for="template-contactform-ninos">Niños</label>
                                     <select id="template-contactform-ninos" name="template-contactform-ninos" class="sm-form-control">
@@ -105,18 +114,27 @@
                                         <option value="4">4</option>
                                     </select>
                                 </div>
-
-                                <div class="w-100"></div>
-
-                                <div class="col-4 form-group">
-                                    <button class="btn btn-light" style="background-color: #00635c; color:white;" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">RESERVAR</button>
-                                </div>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" value="Ventilador" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label style="color: #00635c;" class="form-check-label" for="flexRadioDefault1">
+                                    Ventilador
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" value="AC" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label style="color: #00635c;" class="form-check-label" for="flexRadioDefault2">
+                                    Aire acondicionado
+                                </label>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-4 form-group">
+                                <button class="btn btn-light" style="background-color: #00635c; color:white;" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">RESERVAR</button>
                             </div>
                         </form>
                     </div>
                     <div class="line"></div>
                 </div><!-- .portfolio-single-content end -->
-
             </div>
         </div>
     </div>

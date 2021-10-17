@@ -2,11 +2,18 @@
 @model KimaliVic.Pages.ContactoModel
 @{
 }
+<div class="container clearfix">
+    <div class="heading-block center">
+        <h3>Visítanos</h3>
+        <span style="color: #00635c;"><strong>Te esperamos!</strong></span>
+    </div>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+</div>
 <section id="content">
     <div class="content-wrap">
         <div class="container clearfix">
-            <div style="justify-content:center;display:flex;align-items:center" class="row">                              
-                <div class="col-lg-4 portfolio-single-content">               
+            <div style="justify-content:center;display:flex;align-items:center" class="row">
+                <div class="col-lg-4 portfolio-single-content">
                     <div class="form-widget">
                         <div class="form-result"></div>
                         <form class="mb-0" id="template-contactform" name="template-contactform" method="post">
@@ -18,19 +25,19 @@
                             <div class="row">
                                 <div class="col-12 form-group">
                                     <label style="justify-content: center; display: flex; align-items: center; color: #00635c;" for="template-contactform-name">Nombre</label>
-                                    <input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+                                    <input style="border-color: #00635c" type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 form-group">
                                     <label style="justify-content: center; display: flex; align-items: center; color: #00635c;" for="template-contactform-email">Email</label>
-                                    <input type="text" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+                                    <input style="border-color: #00635c" type="text" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 form-group">
                                     <label style="justify-content: center; display: flex; align-items: center; color: #00635c;" for="template-contactform-telefono">Teléfono</label>
-                                    <input type="text" id="template-contactform-telefono" name="template-contactform-telefono" value="" class="sm-form-control required" />
+                                    <input style="border-color: #00635c" type="text" id="template-contactform-telefono" name="template-contactform-telefono" value="" class="sm-form-control required" />
                                 </div>
                             </div>
                             <div class="col-12 form-group" style="justify-content: center; display: flex; align-items: center;">
@@ -49,3 +56,24 @@
         </div>
     </div>
 </section>
+
+@section scripts {
+    <script type="text/javascript">
+        //AIzaSyCEIy9WNI7Sj1qs586WUxUmlk8-3x0ZzFo
+        function initMap() {
+            // The location of Uluru
+            //,
+            const uluru = { lat: 14.699147, lng: -91.870148 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 20,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+    </script>
+}
