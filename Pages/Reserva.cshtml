@@ -5,18 +5,18 @@
 
 <!-- Page Title
 ============================================= -->
-<section id="page-title">
+<!--<section id="page-title">
 
     <div class="container clearfix">
         <h1 class="text-center">Reservaciones</h1>
-        <span class="text-center" style="color: #00635c;"><strong>Haz tu reserva!</strong></span>
+        <span class="text-center" style="color: #00635c;"><strong>Haz tu reserva!</strong></span>-->
         @*<ol class="breadcrumb">
             <li class="breadcrumb-item"><a asp-area="" asp-page="/Habitaciones">Habitaciones</a></li>
             <li class="breadcrumb-item active" aria-current="page">Reservas</li>
         </ol>*@
-    </div>
+    <!--</div>
 
-</section><!-- #page-title end -->
+</section>--><!-- #page-title end -->
 
 <section id="content">
     <div class="content-wrap">
@@ -27,26 +27,26 @@
                 <div class="col-lg-8 portfolio-single-image">
                     @if (Model.NumHabitacion == 5)
                     {
-                        <a href="#"><img src="~/images/habitaciones/simple/6.jpg" style="max-height:400px" alt="Image"></a>
+                        <a href="#"><img src="~/images/habitaciones/simple/6.png" style="max-height:400px" alt="Image"></a>
                         <h2>Habitación Simple</h2>
                         <span><a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="5"><strong style="color:#00635c">Información sobre la habitación.</strong></a></span>
                     }
                     else if (Model.NumHabitacion == 1)
                     {
-                        <a href="#"><img src="~/images/habitaciones/suite/4.jpg" style="max-height:400px" alt="Image"></a>
+                        <a href="#"><img src="~/images/habitaciones/suite/4.png" style="max-height:400px" alt="Image"></a>
                         <h2>Suite</h2>
                         <span><a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="1"><strong style="color:#00635c">Información sobre la habitación.</strong></a></span>
                     }
                     else if (Model.NumHabitacion == 3)
                     {
-                        <a href="#"><img src="~/images/habitaciones/doble/fotos de 2.jpg" style="max-height:400px" alt="Image"></a>
+                        <a href="#"><img src="~/images/habitaciones/doble/fotos de 2.png" style="max-height:400px" alt="Image"></a>
                         <h2>Habitación Doble</h2>
                         <span><a asp-area="" asp-page="/Habitacion" asp-route-numhabitacion="3"><strong style="color:#00635c">Información sobre la habitación.</strong></a></span>
                     }
 
-                    @*<a href="#"><img src="images/portfolio/4/@Model.NombreFoto" style="max-height:400px" alt="Image"></a>*@
-                    <!--<h2>Habitación @Model.NumHabitacion</h2>-->
-                    @*<p style="background-color: #00635c;">Información habitación</p>*@
+                    @*<a href="#"><img src="images/portfolio/4/@Model.NombreFoto" style="max-height:400px" alt="Image"></a>
+                    <h2>Habitación @Model.NumHabitacion</h2>
+                    <p style="background-color: #00635c;">Información habitación</p>*@
                 </div><!-- .portfolio-single-image end -->
                 <!-- Portfolio Single Content
     ============================================= -->
