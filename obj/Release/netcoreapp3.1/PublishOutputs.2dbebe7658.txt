@@ -90,7 +90,7 @@ C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\style.css
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\style.scss
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\swiper.css
-C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\documents\Men� Kimali.pdf
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\documents\Menú Kimali.pdf
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon.ico
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\about\full\1.jpg
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\about\full\2.jpg
@@ -100,13 +100,13 @@ C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\doble\.DS_Store
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\doble\doble1.svg
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\doble\doble2.svg
-C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\doble\fotos de 2.jpg
-C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\doble\fotso 3.jpg
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\doble\fotos de 2.png
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\doble\fotso 3.png
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\simple\.DS_Store
-C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\simple\6.jpg
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\simple\6.png
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\simple\simple1.svg
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\suite\.DS_Store
-C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\suite\4.jpg
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\suite\4.png
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\suite\DSC_0422.png
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\suite\DSC_0425.png
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\habitaciones\suite\DSC_0492.png
@@ -201,6 +201,11 @@ C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\5-4.jpg
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\5.jpg
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\6.jpg
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\DSC_0422.png
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\DSC_0425.png
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\DSC_0492.png
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\fotos de 2.jpg
+C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\fotso 3.jpg
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\mixed\1.jpg
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\mixed\10.jpg
 C:\Users\johns\OneDrive\Documentos\Proyectos C#\KimaliVic\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\portfolio\4\mixed\11.jpg
